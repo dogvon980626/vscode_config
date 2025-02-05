@@ -1,0 +1,186 @@
+2025-02-05 18:20:08.193 [info] Using the Electron fetcher.
+2025-02-05 18:20:08.193 [info] Initializing Git extension service.
+2025-02-05 18:20:08.194 [info] Successfully activated the vscode.git extension.
+2025-02-05 18:20:08.194 [info] Enablement state of the vscode.git extension: true.
+2025-02-05 18:20:08.194 [info] Successfully registered Git commit message provider.
+2025-02-05 18:20:08.228 [info] Logged in as dogvon980626
+2025-02-05 18:20:09.374 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 18:20:09.469 [info] Logged in as dogvon980626
+2025-02-05 18:20:10.942 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 18:20:10.944 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-02-05 18:20:10.945 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as dogvon980626."
+2025-02-05 18:20:10.945 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:20:10.945 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 18:20:10.945 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:20:10.945 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-02-05 18:20:10.945 [info] activationBlocker from 'languageModelAccess' took for 1489ms
+2025-02-05 18:20:56.430 [info] Using the Electron fetcher.
+2025-02-05 18:20:56.430 [info] Initializing Git extension service.
+2025-02-05 18:20:56.430 [info] Successfully activated the vscode.git extension.
+2025-02-05 18:20:56.430 [info] Enablement state of the vscode.git extension: true.
+2025-02-05 18:20:56.430 [info] Successfully registered Git commit message provider.
+2025-02-05 18:20:59.724 [info] Logged in as dogvon980626
+2025-02-05 18:21:00.278 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 18:21:00.279 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at IZ.waitForChatEnabled (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13713)
+    at IZ.run (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:13432)
+    at w0.askToUpgradeAuthPermissions (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:444:12870): Failed to get copilot token
+2025-02-05 18:21:00.279 [error] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as dogvon980626."
+2025-02-05 18:21:00.279 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:21:00.279 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 18:21:00.279 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:21:00.279 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at r (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2288)
+    at Y0._registerEmbeddings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2787)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tB.waitForActivationBlockers (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:13668)
+    at /home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4201
+    at Frr (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:2255:4014)
+    at K0.n (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+    at K0.m (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+    at K0.l (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)
+2025-02-05 18:21:00.280 [info] activationBlocker from 'languageModelAccess' took for 3508ms
+2025-02-05 18:21:01.006 [warning] [repo:PlexPt/awesome-chatgpt-prompts-zh] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 1ms. Query: text
+2025-02-05 18:21:01.400 [warning] [repo:PlexPt/awesome-chatgpt-prompts-zh] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 2ms. Query: text
+2025-02-05 18:21:01.787 [warning] [repo:PlexPt/awesome-chatgpt-prompts-zh] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 3ms. Query: text
+2025-02-05 18:21:01.888 [warning] [repo:PlexPt/awesome-chatgpt-prompts-zh] Max Retry Error thrown while querying 'text'
+2025-02-05 18:21:59.006 [warning] [repo:fengyuhetao/shell] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 1ms. Query: text
+2025-02-05 18:21:59.392 [warning] [repo:fengyuhetao/shell] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 2ms. Query: text
+2025-02-05 18:21:59.791 [warning] [repo:fengyuhetao/shell] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 3ms. Query: text
+2025-02-05 18:21:59.891 [warning] [repo:fengyuhetao/shell] Max Retry Error thrown while querying 'text'
+2025-02-05 18:22:33.813 [warning] [repo:dogvon980626/-] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 1ms. Query: text
+2025-02-05 18:22:34.203 [warning] [repo:dogvon980626/-] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 2ms. Query: text
+2025-02-05 18:22:34.598 [warning] [repo:dogvon980626/-] Error fetching code search. Error: unauthorized: not licensed to use Copilot
+. Retrying in 3ms. Query: text
+2025-02-05 18:22:34.698 [warning] [repo:dogvon980626/-] Max Retry Error thrown while querying 'text'
+2025-02-05 18:36:00.306 [info] Logged in as dogvon980626
+2025-02-05 18:36:00.881 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 18:36:00.882 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:36:00.882 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 18:51:00.888 [info] Logged in as dogvon980626
+2025-02-05 18:51:01.461 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 18:51:01.461 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 18:51:01.461 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 19:06:01.466 [info] Logged in as dogvon980626
+2025-02-05 19:06:02.023 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 19:06:02.023 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 19:06:02.023 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 19:21:02.028 [info] Logged in as dogvon980626
+2025-02-05 19:21:02.643 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 19:21:02.643 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 19:21:02.643 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 19:36:02.659 [info] Logged in as dogvon980626
+2025-02-05 19:36:03.212 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 19:36:03.212 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 19:36:03.212 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 19:51:03.219 [info] Logged in as dogvon980626
+2025-02-05 19:51:03.865 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 19:51:03.865 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 19:51:03.865 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)
+2025-02-05 20:06:03.882 [info] Logged in as dogvon980626
+2025-02-05 20:06:04.466 [warning] Invalid copilot token: missing token: 403 
+2025-02-05 20:06:04.466 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-05 20:06:04.466 [error] Error: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at B0._authShowWarnings (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:3407)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at B0.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:446:2438)
+    at dF.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:334:26267)
+    at Y0._getAuthSession (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:2825)
+    at Object.A [as task] (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:488:640)
+    at xC._processQueue (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:487:1101)

@@ -1,0 +1,2 @@
+2025-02-05 22:07:36.245 [error] [File Watcher (node.js)] Failed to watch /home/fjk/文档/工作区/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/fjk/文档/工作区/.git/refs/remotes/origin/main')
+2025-02-05 22:11:34.607 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

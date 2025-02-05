@@ -1,0 +1,106 @@
+2025-02-05 20:50:38.373 [info] [main] 日志级别: Info
+2025-02-05 20:50:38.373 [info] [main] 正在验证在以下位置找到的 git: "git"
+2025-02-05 20:50:38.373 [info] [main] 使用来自 "git" 的 git "2.43.0"
+2025-02-05 20:50:38.373 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-05 20:50:38.373 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-05 20:50:38.373 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.373 [info] > git rev-parse --show-toplevel [113ms]
+2025-02-05 20:50:38.373 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.543 [info] > git rev-parse --show-toplevel [83ms]
+2025-02-05 20:50:38.543 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.559 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 20:50:38.559 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.577 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-05 20:50:38.578 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.593 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-05 20:50:38.593 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.700 [info] > git rev-parse --show-toplevel [18ms]
+2025-02-05 20:50:38.700 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.801 [info] > git rev-parse --show-toplevel [71ms]
+2025-02-05 20:50:38.801 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.837 [info] > git rev-parse --show-toplevel [18ms]
+2025-02-05 20:50:38.837 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.861 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-05 20:50:38.861 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.877 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 20:50:38.877 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.942 [info] > git rev-parse --show-toplevel [52ms]
+2025-02-05 20:50:38.942 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:38.958 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 20:50:38.973 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-05 20:50:38.984 [info] [Model][openRepository] Opened repository: /home/fjk/文档/awesome-chatgpt-prompts-zh
+2025-02-05 20:50:39.012 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 20:50:39.012 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:50:39.014 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-05 20:50:39.014 [info] > git config --get commit.template [17ms]
+2025-02-05 20:50:39.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-05 20:50:39.047 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 20:50:39.079 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2025-02-05 20:50:39.110 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-05 20:50:40.169 [info] > git status -z -uall [1077ms]
+2025-02-05 20:50:40.169 [info] > git check-ignore -v -z --stdin [34ms]
+2025-02-05 20:50:40.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [44ms]
+2025-02-05 20:50:41.350 [info] > git config --local branch.main.vscode-merge-base [1107ms]
+2025-02-05 20:50:41.350 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.364 [info] > git config --get commit.template [1154ms]
+2025-02-05 20:50:41.381 [info] > git reflog main --grep-reflog=branch: Created from *. [17ms]
+2025-02-05 20:50:41.447 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [54ms]
+2025-02-05 20:50:41.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [19ms]
+2025-02-05 20:50:41.491 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [47ms]
+2025-02-05 20:50:41.504 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 20:50:41.523 [info] > git rev-parse refs/remotes/origin/main [19ms]
+2025-02-05 20:50:41.548 [info] > git config --local branch.main.vscode-merge-base origin/main [57ms]
+2025-02-05 20:50:41.548 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 20:50:41.548 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.548 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms] (cancelled)
+2025-02-05 20:50:41.578 [info] > git status -z -uall [44ms] (cancelled)
+2025-02-05 20:50:41.578 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-02-05 20:50:41.599 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2025-02-05 20:50:41.599 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.611 [info] > git config --get commit.template [36ms]
+2025-02-05 20:50:41.626 [info] > git reflog main --grep-reflog=branch: Created from *. [15ms]
+2025-02-05 20:50:41.640 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-02-05 20:50:41.652 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 20:50:41.652 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2025-02-05 20:50:41.667 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-02-05 20:50:41.726 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2025-02-05 20:50:41.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [62ms]
+2025-02-05 20:50:41.743 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2025-02-05 20:50:41.743 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 20:50:41.743 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.790 [info] > git status -z -uall [112ms] (cancelled)
+2025-02-05 20:50:41.791 [info] > git merge-base refs/heads/main refs/remotes/origin/main [24ms]
+2025-02-05 20:50:41.803 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [48ms]
+2025-02-05 20:50:41.819 [info] > git diff --name-status -z --diff-filter=ADMR 367ed18b9c50b702d762c6fbc2885107141acb62...refs/remotes/origin/main [16ms]
+2025-02-05 20:50:41.819 [info] > git config --get commit.template [31ms]
+2025-02-05 20:50:41.820 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2025-02-05 20:50:41.820 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.849 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2025-02-05 20:50:41.862 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
+2025-02-05 20:50:41.875 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 20:50:41.875 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [14ms]
+2025-02-05 20:50:41.887 [info] > git rev-parse refs/remotes/origin/main [12ms]
+2025-02-05 20:50:41.912 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [26ms]
+2025-02-05 20:50:41.926 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-02-05 20:50:41.927 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2025-02-05 20:50:41.927 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 20:50:41.927 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 20:50:41.941 [info] > git status -z -uall [43ms] (cancelled)
+2025-02-05 20:50:41.944 [info] > git config --get commit.template [4ms]
+2025-02-05 20:50:41.964 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-02-05 20:50:41.976 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 20:50:41.978 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-02-05 20:50:42.007 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2025-02-05 20:50:42.542 [info] > git status -z -uall [552ms]
+2025-02-05 20:51:00.723 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 20:51:00.723 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:51:27.548 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 20:51:27.548 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:51:44.177 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 20:51:44.177 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:51:55.393 [info] > git rev-parse --show-toplevel [20ms]
+2025-02-05 20:51:55.394 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:54:51.376 [info] > git rev-parse --show-toplevel [9ms]
+2025-02-05 20:54:51.376 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 20:54:51.417 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 20:54:51.418 [info] fatal: 不是 git 仓库（或者任何父目录）：.git

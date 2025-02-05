@@ -1,0 +1,30 @@
+2025-02-05 21:03:25.783 [info] [certificates] Removed 1 expired certificates
+2025-02-05 21:05:25.650 [error] [auth] auth: HttpTimeoutError: Request to <https://api.github.com/copilot_internal/v2/token> timed out after 120000ms
+    at /home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/network/helix.ts:96:19
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Ope.fetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/network/helix.ts:94:22)
+    ... 2 lines matching cause stack trace ...
+    at /home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/auth/copilotTokenManager.ts:74:33 {
+  cause: AbortError: The operation was aborted.
+      at fetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:96:13)
+      at processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at cachingFetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+      at Ope.fetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/network/helix.ts:94:22)
+      at fetchCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/auth/copilotToken.ts:199:16)
+      at authFromGitHubToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/auth/copilotToken.ts:132:22)
+      at /home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/auth/copilotTokenManager.ts:74:33 {
+    type: 'aborted',
+    _name: 'AbortError'
+  }
+}
+2025-02-05 21:05:58.897 [error] [default] Error sending telemetry FetchError: The pending stream has been canceled (caused by: connect ETIMEDOUT 172.29.2.61:443)
+    at fetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:99:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at cachingFetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/node_modules/@adobe/helix-fetch/src/fetch/index.js:288:16)
+    at Ope.fetch (/home/fjk/.vscode/extensions/github.copilot-1.264.0/lib/src/network/helix.ts:94:22) {
+  type: 'system',
+  _name: 'FetchError',
+  code: 'ERR_HTTP2_STREAM_CANCEL',
+  errno: undefined,
+  erroredSysCall: undefined
+}

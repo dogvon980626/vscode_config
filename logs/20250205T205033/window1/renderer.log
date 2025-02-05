@@ -1,0 +1,16 @@
+2025-02-05 20:50:33.916 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 20:50:33.916 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 20:50:33.916 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 20:50:34.291 [info] Started local extension host with pid 38082.
+2025-02-05 20:50:36.930 [info] [perf] Render performance baseline is 24ms
+2025-02-05 20:50:40.109 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 20:50:41.350 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 20:50:41.960 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 20:50:41.962 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-05 20:54:42.622 [error] [network] #24: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-02-05 20:54:44.163 [error] [network] #26: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

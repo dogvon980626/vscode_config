@@ -1,0 +1,52 @@
+2025-02-05 21:29:03.046 [info] l10n: Configured to file:///home/fjk/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.96.2024121109/translations/extensions/vscode.json-language-features.i18n.json
+2025-02-05 21:48:37.714 [info] read schema from vscode: vscode://schemas/workspaceConfig
+2025-02-05 21:48:37.752 [info] read schema from vscode: vscode://schemas/extensions
+2025-02-05 21:48:37.752 [info] read schema from vscode: vscode://schemas/tasks
+2025-02-05 21:48:37.752 [info] read schema from vscode: vscode://schemas/launch
+2025-02-05 21:48:37.752 [info] read schema from vscode: vscode://schemas/settings/workspace
+2025-02-05 21:48:37.903 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-02-05 21:48:37.908 [info] read schema from vscode: vscode://schemas/token-styling
+2025-02-05 21:48:37.910 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-02-05 21:48:37.933 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-02-05 21:48:42.965 [info] schema change detected vscode://schemas/launch
+2025-02-05 21:50:32.982 [info] read schema from vscode: vscode://schemas/settings/user
+2025-02-05 21:50:33.106 [info] read schema from vscode: vscode://schemas/ignoredSettings
+2025-02-05 21:50:33.110 [info] read schema from vscode: vscode://schemas/launch
+2025-02-05 21:50:34.128 [info] schema change detected vscode://schemas/settings/user
+2025-02-05 21:50:34.129 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 21:50:34.129 [info] read schema from vscode: vscode://schemas/settings/user
+2025-02-05 21:52:31.662 [info] schema change detected vscode://schemas/settings/user
+2025-02-05 21:52:31.662 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 21:52:31.663 [info] read schema from vscode: vscode://schemas/settings/user
+2025-02-05 21:53:24.843 [info] cancelled
+2025-02-05 21:53:26.314 [info] schema change detected vscode://schemas/settings/user
+2025-02-05 21:53:26.314 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 21:53:34.338 [info] read schema from vscode: vscode://schemas/workspaceConfig
+2025-02-05 21:53:34.392 [info] read schema from vscode: vscode://schemas/settings/workspace
+2025-02-05 22:07:36.112 [info] schema change detected vscode://schemas/launch
+2025-02-05 22:07:38.903 [info] l10n: Configured to file:///home/fjk/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.96.2024121109/translations/extensions/vscode.json-language-features.i18n.json
+2025-02-05 22:07:39.711 [info] read schema from vscode: vscode://schemas/workspaceConfig
+2025-02-05 22:07:39.738 [info] read schema from vscode: vscode://schemas/extensions
+2025-02-05 22:07:39.739 [info] read schema from vscode: vscode://schemas/tasks
+2025-02-05 22:07:39.739 [info] read schema from vscode: vscode://schemas/launch
+2025-02-05 22:07:39.740 [info] read schema from vscode: vscode://schemas/settings/workspace
+2025-02-05 22:07:40.510 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-02-05 22:07:40.536 [info] read schema from vscode: vscode://schemas/token-styling
+2025-02-05 22:07:40.537 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-02-05 22:07:40.537 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-02-05 22:07:41.806 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 22:07:42.901 [info] schema change detected vscode://schemas/launch
+2025-02-05 22:09:14.497 [info] schema change detected vscode://schemas/launch
+2025-02-05 22:09:17.874 [info] l10n: Configured to file:///home/fjk/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.96.2024121109/translations/extensions/vscode.json-language-features.i18n.json
+2025-02-05 22:09:18.175 [info] read schema from vscode: vscode://schemas/workspaceConfig
+2025-02-05 22:09:18.257 [info] read schema from vscode: vscode://schemas/extensions
+2025-02-05 22:09:18.261 [info] read schema from vscode: vscode://schemas/tasks
+2025-02-05 22:09:18.262 [info] read schema from vscode: vscode://schemas/launch
+2025-02-05 22:09:18.262 [info] read schema from vscode: vscode://schemas/settings/workspace
+2025-02-05 22:09:18.495 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-02-05 22:09:18.602 [info] read schema from vscode: vscode://schemas/token-styling
+2025-02-05 22:09:18.607 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-02-05 22:09:18.627 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-02-05 22:09:19.645 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 22:09:20.654 [info] schema change detected vscode://schemas/settings/workspace
+2025-02-05 22:09:23.068 [info] schema change detected vscode://schemas/launch

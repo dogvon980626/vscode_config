@@ -1,0 +1,75 @@
+# 基础镜像
+FROM <image>:<tag>
+# 指定构建镜像的基础镜像，<image>为镜像名称，<tag>为镜像标签
+
+# 维护者信息
+MAINTAINER <name>
+# 指定镜像的作者信息，<name>为作者名称
+
+# 设置环境变量
+ENV <key>=<value>
+# 设置环境变量，<key>为变量名，<value>为变量值
+
+# 复制文件或目录
+COPY <src> <dest>
+# 将宿主机文件或目录复制到镜像中，<src>为源路径，<dest>为目标路径
+
+# 添加文件或目录
+ADD <src> <dest>
+# 类似于COPY，但支持URL和自动解压tar文件
+
+# 运行命令
+RUN <command>
+# 在镜像构建过程中执行命令，<command>为要执行的命令
+
+# 设置工作目录
+WORKDIR <path>
+# 设置后续命令的工作目录，<path>为目录路径
+
+# 暴露端口
+EXPOSE <port>
+# 声明容器运行时监听的端口，<port>为端口号
+
+# 设置容器启动命令
+CMD ["executable","param1","param2"]
+# 设置容器启动时执行的命令，通常为应用程序的启动命令
+
+# 设置容器入口点
+ENTRYPOINT ["executable", "param1", "param2"]
+# 设置容器启动时执行的入口点命令，与CMD类似但优先级更高
+
+# 设置卷
+VOLUME ["/data"]
+# 声明容器中的挂载点，用于持久化数据
+
+# 设置用户
+USER <username>
+# 指定运行后续命令的用户，<username>为用户名
+
+# 设置健康检查
+HEALTHCHECK [OPTIONS] CMD <command>
+# 定义容器健康检查命令，OPTIONS为选项，<command>为检查命令
+
+# 设置标签
+LABEL <key>=<value>
+# 为镜像添加元数据标签，<key>为标签名，<value>为标签值
+
+# 设置参数
+ARG <name>[=<default value>]
+# 定义构建时的参数，<name>为参数名，<default value>为默认值
+
+# 设置信号处理
+STOPSIGNAL <signal>
+# 设置容器停止时发送的信号，<signal>为信号名称或编号
+
+# 设置Shell
+SHELL ["executable", "param1", "param2"]
+# 设置RUN、CMD、ENTRYPOINT等指令使用的Shell
+
+# 设置构建阶段
+FROM <image>:<tag> AS <stage>
+# 定义多阶段构建的阶段，<stage>为阶段名称
+
+# 复制其他阶段的文件
+COPY --from=<stage> <src> <dest>
+# 从其他构建阶段复制文件，<stage>为阶段名称，<src>为源路径，<dest>为目标路径

@@ -1,0 +1,34 @@
+2025-02-05 18:19:55.576 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:19:55.576 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:19:55.577 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:19:55.949 [info] Started local extension host with pid 26416.
+2025-02-05 18:19:58.583 [info] [perf] Render performance baseline is 26ms
+2025-02-05 18:19:59.468 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 18:19:59.470 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-05 18:20:09.341 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 18:20:10.912 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 18:20:51.692 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:20:51.692 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:20:51.692 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 18:20:52.073 [info] Started local extension host with pid 26528.
+2025-02-05 18:20:54.802 [info] [perf] Render performance baseline is 39ms
+2025-02-05 18:20:57.905 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 18:20:59.263 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 18:20:59.908 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 18:20:59.914 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-05 19:08:26.649 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 19:12:43.243 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 19:14:54.827 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 19:54:58.148 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 19:55:51.848 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 20:06:07.266 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com

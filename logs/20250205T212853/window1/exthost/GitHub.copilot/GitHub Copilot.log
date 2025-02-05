@@ -1,0 +1,24 @@
+2025-02-05 21:28:59.005 [info] [certificates] Removed 1 expired certificates
+2025-02-05 21:29:00.338 [info] [auth] Invalid copilot token: missing token: 403 
+2025-02-05 21:29:01.194 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 22:07:40.446 [info] [certificates] Removed 1 expired certificates
+2025-02-05 22:07:41.049 [info] [auth] Invalid copilot token: missing token: 403 
+2025-02-05 22:07:41.783 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 22:09:18.367 [info] [certificates] Removed 1 expired certificates
+2025-02-05 22:09:19.699 [info] [auth] Invalid copilot token: missing token: 403 
+2025-02-05 22:09:20.432 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}

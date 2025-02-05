@@ -1,0 +1,280 @@
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: diff --git a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index
+index a8cc420..db4fd09 100644
+Binary files a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index and b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index differ
+
+
+diff --git a/User/globalStorage/state.vscdb b/User/globalStorage/state.vscdb
+index d42fa8f..fc79bae 100644
+Binary files a/User/globalStorage/state.vscdb and b/User/globalStorage/state.vscdb differ
+
+
+diff --git a/User/settings.json b/User/settings.json
+index 92d58ac..c75098b 100644
+--- a/User/settings.json
++++ b/User/settings.json
+@@ -4,5 +4,6 @@
+     "workbench.iconTheme": "material-icon-theme",
+     "editor.inlineSuggest.showToolbar": "always",
+     "markdown-preview-enhanced.previewTheme": "github-dark.css",
+-    "workbench.colorTheme": "GitHub Dark Default"
++    "workbench.colorTheme": "GitHub Dark Default",
++    "git.enableSmartCommit": true
+ }
+\ No newline at end of file
+
+
+diff --git a/User/sync/settings/lastSyncsettings.json b/User/sync/settings/lastSyncsettings.json
+index eb7a9a0..38eef1a 100644
+--- a/User/sync/settings/lastSyncsettings.json
++++ b/User/sync/settings/lastSyncsettings.json
+@@ -1 +1 @@
+-{"ref":"60bb67b7-e2da-4b40-a2fe-19fb971b49c4","syncData":{"version":2,"machineId":"4ddc90ec-496e-4a75-9cef-3202f62a0ab8","content":"{\"settings\":\"{\\n    \\\"workbench.startupEditor\\\": \\\"none\\\",\\n    \\\"security.workspace.trust.untrustedFiles\\\": \\\"open\\\",\\n    \\\"workbench.iconTheme\\\": \\\"material-icon-theme\\\",\\n    \\\"editor.inlineSuggest.showToolbar\\\": \\\"always\\\",\\n    \\\"markdown-preview-enhanced.previewTheme\\\": \\\"github-dark.css\\\",\\n    \\\"workbench.colorTheme\\\": \\\"GitHub Dark Default\\\"\\n}\"}"}}
+\ No newline at end of file
++{"ref":"c0d30cc1-93ba-4a20-b8be-64f7fa5b6afc","syncData":{"version":2,"machineId":"4ddc90ec-496e-4a75-9cef-3202f62a0ab8","content":"{\"settings\":\"{\\n    \\\"workbench.startupEditor\\\": \\\"none\\\",\\n    \\\"security.workspace.trust.untrustedFiles\\\": \\\"open\\\",\\n    \\\"workbench.iconTheme\\\": \\\"material-icon-theme\\\",\\n    \\\"editor.inlineSuggest.showToolbar\\\": \\\"always\\\",\\n    \\\"markdown-preview-enhanced.previewTheme\\\": \\\"github-dark.css\\\",\\n    \\\"workbench.colorTheme\\\": \\\"GitHub Dark Default\\\",\\n    \\\"git.enableSmartCommit\\\": true\\n}\"}"}}
+\ No newline at end of file
+
+
++++++ file:///Untitled.txt 
+git add ./
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+
+Suffix: 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: diff --git a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index
+index a8cc420..db4fd09 100644
+Binary files a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index and b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index differ
+
+
+diff --git a/User/globalStorage/state.vscdb b/User/globalStorage/state.vscdb
+index d42fa8f..fc79bae 100644
+Binary files a/User/globalStorage/state.vscdb and b/User/globalStorage/state.vscdb differ
+
+
+diff --git a/User/globalStorage/storage.json b/User/globalStorage/storage.json
+index ec41fa0..98ce027 100644
+--- a/User/globalStorage/storage.json
++++ b/User/globalStorage/storage.json
+@@ -253,8 +253,7 @@
+                     },
+                     {
+                         "id": "saveAll",
+-                        "label": "全部保存(&&L)",
+-                        "enabled": false
++                        "label": "全部保存(&&L)"
+                     },
+                     {
+                         "id": "vscode.menubar.separator"
+
+
+diff --git a/User/settings.json b/User/settings.json
+index 92d58ac..c75098b 100644
+--- a/User/settings.json
++++ b/User/settings.json
+@@ -4,5 +4,6 @@
+     "workbench.iconTheme": "material-icon-theme",
+     "editor.inlineSuggest.showToolbar": "always",
+     "markdown-preview-enhanced.previewTheme": "github-dark.css",
+-    "workbench.colorTheme": "GitHub Dark Default"
++    "workbench.colorTheme": "GitHub Dark Default",
++    "git.enableSmartCommit": true
+ }
+\ No newline at end of file
+
+
+diff --git a/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac/state.vscdb b/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac/state.vscdb
+index 00a3087..79f8cf1 100644
+Binary files a/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac/state.vscdb and b/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac/state.vscdb differ
+
+
+diff --git a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index
++index a8cc420..db4fd09 100644
++Binary files a/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index and b/CachedData/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/chrome/js/index-dir/the-real-index differ
++
++
++
+
++++++ file:///Untitled.txt 
+git add ./
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git add ./
+Suffix: 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git init 
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+
+Suffix: 
+git add README.md 
+git add ./
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git init 
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git config --global user.name fjk
+fjk@fjk-ubuntu:~/.config/Code$ git config --global user.email dogvon980626@gmail.com
+Suffix: 
+git add README.md 
+git add ./
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git init 
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git config --global user.name fjk
+
+Suffix: git config --global user.email dogvon980626@gmail.com
+git add README.md 
+git add ./
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main

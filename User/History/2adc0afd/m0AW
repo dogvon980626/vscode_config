@@ -1,0 +1,58 @@
+# 定义上游服务器组
+upstream backend_servers {
+    # 你可以在这里添加多个后端服务器
+    server 200.1.0.7:15004 weight=1;
+    server 200.1.0.8:15004 weight=1;
+    server 200.1.0.9:15004 weight=1;
+    # 你可以根据需要调整权重，权重越高，分配的请求越多
+}
+
+server {
+    listen 15002 ssl;
+    server_name 0.0.0.0;
+    # 设置字符编码为 utf-8
+    charset utf-8;
+    # 强制使用 HTTPS
+    add_header Strict-Transport-Security "max-age=31536000; includeSubDomains" always;
+    # 日志记录路径
+    access_log /web/web_log/access_nginx_ctrla_top.log json;
+    error_log /web/web_log/error_nginx_ctrla_top.log warn;
+    # 根目录
+    root /code;
+    # 错误页面
+    error_page 404 /404.html;
+    error_page 500 502 503 504 /50x.html;
+    ssl_certificate /etc/nginx/fullchain.pem;
+    ssl_certificate_key /etc/nginx/privkey.pem;
+
+    location /sjm {
+        index index.html;
+    }
+
+    location /2048 {
+        index index.html;
+    }
+
+    location /chat {
+        index index.html;
+    }
+
+    location /socket.io/ {
+        # 使用负载均衡
+        proxy_pass http://backend_servers;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    location / {
+        # 80端口走人家服务器去
+        if ($host = 'nginx.ctrla.top' ) {
+            rewrite ^/(.*)$ http://nginx.ctrla.top/sjm/ permanent;
+        }
+        # 加端口直接给丢到/sjm
+        rewrite ^/(.*)$ /sjm/ permanent;
+    }
+}

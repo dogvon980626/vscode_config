@@ -1,0 +1,26 @@
+2025-02-05 18:19:57.619 [info] Acquired MSAL enablement value from default. Value: false
+2025-02-05 18:19:59.466 [info] Getting sessions for all scopes...
+2025-02-05 18:19:59.466 [info] Got 3 sessions for all scopes...
+2025-02-05 18:19:59.467 [info] Getting sessions for all scopes...
+2025-02-05 18:19:59.467 [info] Got 3 sessions for all scopes...
+2025-02-05 18:19:59.468 [info]  for undefined
+2025-02-05 18:19:59.468 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 18:20:53.845 [info] Acquired MSAL enablement value from default. Value: false
+2025-02-05 18:20:59.906 [info] Getting sessions for all scopes...
+2025-02-05 18:20:59.906 [info] Got 3 sessions for all scopes...
+2025-02-05 18:20:59.907 [info] Getting sessions for all scopes...
+2025-02-05 18:20:59.907 [info] Got 3 sessions for all scopes...
+2025-02-05 18:20:59.907 [info]  for undefined
+2025-02-05 18:20:59.908 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 19:08:26.649 [info]  for undefined
+2025-02-05 19:08:26.649 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 19:12:43.243 [info]  for undefined
+2025-02-05 19:12:43.243 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 19:14:54.826 [info]  for undefined
+2025-02-05 19:14:54.826 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 19:54:58.147 [info]  for undefined
+2025-02-05 19:54:58.147 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 19:55:51.847 [info]  for undefined
+2025-02-05 19:55:51.847 [info] [email offline_access openid profile] Got 2 sessions
+2025-02-05 20:06:07.265 [info]  for undefined
+2025-02-05 20:06:07.265 [info] [email offline_access openid profile] Got 2 sessions

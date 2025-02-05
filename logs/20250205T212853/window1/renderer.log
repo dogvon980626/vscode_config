@@ -1,0 +1,90 @@
+2025-02-05 21:28:54.130 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:28:54.130 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:28:54.130 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-02-05 21:28:54.585 [info] Started local extension host with pid 44969.
+2025-02-05 21:28:57.277 [info] [perf] Render performance baseline is 21ms
+2025-02-05 21:29:00.211 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 21:29:01.195 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 21:29:02.179 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 21:29:02.181 [info] Settings Sync: Account status changed from uninitialized to available
+2025-02-05 21:29:33.645 [error] this.c.delete is not a function: TypeError: this.c.delete is not a function
+    at TMe.add (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:414:7294)
+    at uU.addToHistory (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:414:18112)
+    at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1340:36057
+    at vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:72431
+2025-02-05 21:30:13.277 [info] Importing Profile (默认): No keybindings to apply...
+2025-02-05 21:30:13.279 [info] Importing Profile (默认): No tasks to apply...
+2025-02-05 21:31:15.877 [info] Importing Profile (默认): No keybindings to apply...
+2025-02-05 21:31:15.880 [info] Importing Profile (默认): No tasks to apply...
+2025-02-05 21:37:27.521 [error] 无法解析不存在的文件 'vscode-userdata:/home/fjk/.config/Code/User/globalStorage/github.copilot': Error: 无法解析不存在的文件 'vscode-userdata:/home/fjk/.config/Code/User/globalStorage/github.copilot'
+    at _ot.resolve (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-02-05 21:38:24.858 [error] [Extension Host] Error: spawn docker ENOENT
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-02-05 21:49:13.082 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:49:13.541 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:49:31.279 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:49:31.326 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:49:32.171 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:49:32.215 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:50:34.603 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:50:34.647 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:52:32.146 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:52:32.195 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:53:25.282 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:53:25.374 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:53:26.786 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:53:26.830 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:53:36.336 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:53:36.401 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:53:52.377 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:53:52.435 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 21:54:04.562 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 21:54:04.647 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:07:36.234 [error] [File Watcher (node.js)] Failed to watch /home/fjk/文档/工作区/.git/refs/remotes/origin/main for changes using fs.watch() (Error: ENOENT: no such file or directory, watch '/home/fjk/文档/工作区/.git/refs/remotes/origin/main')
+2025-02-05 22:07:36.253 [info] Started local extension host with pid 50015.
+2025-02-05 22:07:37.127 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:07:37.184 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:07:37.681 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:07:37.730 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:07:37.917 [error] No registered selector for ID: ms-vscode.npm-command
+2025-02-05 22:07:39.678 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:07:39.727 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:07:40.363 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 22:07:41.783 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 22:07:41.883 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:07:41.958 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:07:42.415 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 22:09:14.556 [info] Started local extension host with pid 51118.
+2025-02-05 22:09:15.436 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:09:15.495 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:09:16.061 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:09:16.109 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:09:17.961 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:09:18.073 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:09:18.235 [error] No registered selector for ID: ms-vscode.npm-command
+2025-02-05 22:09:19.421 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:09:19.471 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:09:19.608 [warning] Authentication provider continue was not declared in the Extension Manifest.
+2025-02-05 22:09:20.432 [error] [Extension Host] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}
+2025-02-05 22:09:21.032 [info] Settings Sync: Token updated for the account dogvon980626@gmail.com
+2025-02-05 22:09:21.119 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-02-05 22:09:21.160 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-02-05 22:11:34.607 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

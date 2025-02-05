@@ -1,0 +1,835 @@
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: 
+
+
+Suffix: echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: 
+
+Suffix: echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: 
+在命令行上创建一个新的存储库
+Suffix: 
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: 
+Suffix: 在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #
+Suffix: 在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main
+ 
+Suffix: 
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main
+
+ 
+Suffix: 
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ 
+Suffix: 
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/test2.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main
+Suffix: 
+==========================================================================
+==========================================================================
+Completion:
+
+
+# 创建一个新的存储库
+echo "# test2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dogvon980626/test2.git
+git push -u origin main
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/tXXX
+Suffix: .git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+XXXXX
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/tXX
+Suffix: X.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/
+Suffix: XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+
+Suffix:  git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: #在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+
+
+Suffix:  git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/test2.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+git remote add origin https://github.com/dogvon980626/test2.git
+
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+https://github.com/dogvon980626/XXX.git
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin hhttps://github.com/dogvon980626/XXX.git
+Suffix: 
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+https://github.com/dogvon980626/XXX.git
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ git remote add origin https://github.com/dogvon980626/XXX.git
+Suffix: 
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+ 
+Suffix: 
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    
+Suffix: 
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+git remote add origin https://github.com/dogvon980626/XXX.git
+    git branch -M main
+    git push -u origin main
+
+#在命令行上创建一个新的存储库
+echo "# vscode_config" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+  
+Suffix: git add
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git branch -M main
+ git push -u origin main
+
+ 将本地存储库推送到GitHub
+ 
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+
+Suffix: git add
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    
+Suffix: git add
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+git remote add origin https://github.com/dogvon980626/XXX.git
+    git branch -M main
+    git push -u origin main
+
+    将现有文件夹转换为git存储库
+ cd existing_folder
+ git init
+ git remote add origin https://github.com/dogvon980626/XXX.git
+ git add .
+ git commit -m "Initial commit"
+ git push -u origin main
+
+ 将现有的git存储库推送到github
+ 
+
+==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add 
+Suffix: 
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add .
+Suffix: 
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+##### Completion options #####
+{
+  "contextLength": 32768,
+  "model": "codestral-latest",
+  "maxTokens": 4096,
+  "temperature": 0.01,
+  "stop": [
+    "[PREFIX]",
+    "[SUFFIX]",
+    "/src/",
+    "#- coding: utf-8",
+    "```"
+  ]
+}
+
+##### Prompt #####
+Prefix: +++++ file:///Untitled.txt 
+git add
+
++++++ file:///home/fjk/%E6%A1%8C%E9%9D%A2/%E5%B8%B8%E8%AF%86/git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81.txt
+#在命令行上创建一个新的存储库
+echo "# test2" >> README.md 
+git init 
+git add README.md 
+git commit -m "第一次提交" 
+git branch -M main 
+git remote add origin https://github.com/dogvon980626/XXX.git
+ git push -u origin main
+
+ 命令行推送现有的存储库
+    git add ./
+Suffix: 
+ git remote add origin https://github.com/dogvon980626/vscode_config.git
+ git branch -M main 
+git push -u origin main==========================================================================
+==========================================================================
+Completion:
+
+ git commit -m "第一次提交"
+

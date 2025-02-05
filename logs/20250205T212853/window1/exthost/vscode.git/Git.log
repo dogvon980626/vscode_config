@@ -1,0 +1,514 @@
+2025-02-05 21:28:58.757 [info] [main] 日志级别: Info
+2025-02-05 21:28:58.757 [info] [main] 正在验证在以下位置找到的 git: "git"
+2025-02-05 21:28:58.757 [info] [main] 使用来自 "git" 的 git "2.43.0"
+2025-02-05 21:28:58.757 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-05 21:28:58.757 [info] > git rev-parse --show-toplevel [51ms]
+2025-02-05 21:28:58.757 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.757 [info] > git rev-parse --show-toplevel [990ms]
+2025-02-05 21:28:58.757 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.757 [info] > git rev-parse --show-toplevel [57ms]
+2025-02-05 21:28:58.757 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.770 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-05 21:28:58.770 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.783 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 21:28:58.783 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.837 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-05 21:28:58.837 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.885 [info] > git rev-parse --show-toplevel [31ms]
+2025-02-05 21:28:58.885 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.932 [info] > git rev-parse --show-toplevel [10ms]
+2025-02-05 21:28:58.932 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:58.978 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-05 21:28:58.978 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.059 [info] > git rev-parse --show-toplevel [70ms]
+2025-02-05 21:28:59.059 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.085 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-05 21:28:59.085 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.110 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-05 21:28:59.110 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.202 [info] > git rev-parse --show-toplevel [77ms]
+2025-02-05 21:28:59.202 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.222 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-05 21:28:59.222 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.233 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:28:59.233 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.245 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:28:59.245 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.295 [info] > git rev-parse --show-toplevel [39ms]
+2025-02-05 21:28:59.295 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.320 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-05 21:28:59.332 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2025-02-05 21:28:59.340 [info] [Model][openRepository] Opened repository: /home/fjk/文档/awesome-chatgpt-prompts-zh
+2025-02-05 21:28:59.368 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-05 21:28:59.368 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:28:59.370 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-05 21:28:59.370 [info] > git config --get commit.template [19ms]
+2025-02-05 21:28:59.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 21:28:59.395 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 21:28:59.399 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-02-05 21:28:59.421 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:29:00.260 [info] > git status -z -uall [852ms]
+2025-02-05 21:29:00.260 [info] > git check-ignore -v -z --stdin [26ms]
+2025-02-05 21:29:00.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-02-05 21:29:01.195 [info] > git config --local branch.main.vscode-merge-base [873ms]
+2025-02-05 21:29:01.195 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.209 [info] > git config --get commit.template [915ms]
+2025-02-05 21:29:01.218 [info] > git reflog main --grep-reflog=branch: Created from *. [10ms]
+2025-02-05 21:29:01.258 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms]
+2025-02-05 21:29:01.373 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [102ms]
+2025-02-05 21:29:01.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [133ms]
+2025-02-05 21:29:01.410 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 21:29:01.410 [info] > git config --local branch.main.vscode-merge-base origin/main [21ms]
+2025-02-05 21:29:01.410 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 21:29:01.410 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.453 [info] > git rev-parse refs/remotes/origin/main [44ms]
+2025-02-05 21:29:01.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-02-05 21:29:01.501 [info] > git config --get commit.template [49ms]
+2025-02-05 21:29:01.524 [info] > git config --local branch.main.vscode-merge-base [23ms]
+2025-02-05 21:29:01.524 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2025-02-05 21:29:01.572 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 21:29:01.572 [info] > git reflog main --grep-reflog=branch: Created from *. [26ms]
+2025-02-05 21:29:01.589 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-02-05 21:29:01.674 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [88ms]
+2025-02-05 21:29:01.690 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [69ms]
+2025-02-05 21:29:01.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2025-02-05 21:29:01.720 [info] > git config --local branch.main.vscode-merge-base origin/main [7ms]
+2025-02-05 21:29:01.720 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 21:29:01.721 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.787 [info] > git status -z -uall [183ms] (cancelled)
+2025-02-05 21:29:01.787 [info] > git merge-base refs/heads/main refs/remotes/origin/main [34ms]
+2025-02-05 21:29:01.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2025-02-05 21:29:01.827 [info] > git diff --name-status -z --diff-filter=ADMR 367ed18b9c50b702d762c6fbc2885107141acb62...refs/remotes/origin/main [20ms]
+2025-02-05 21:29:01.828 [info] > git config --get commit.template [43ms]
+2025-02-05 21:29:01.829 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2025-02-05 21:29:01.829 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.861 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2025-02-05 21:29:01.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
+2025-02-05 21:29:01.893 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 21:29:01.893 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [17ms]
+2025-02-05 21:29:01.910 [info] > git rev-parse refs/remotes/origin/main [17ms]
+2025-02-05 21:29:01.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [33ms]
+2025-02-05 21:29:01.957 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-02-05 21:29:01.958 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2025-02-05 21:29:01.958 [info] error: 不能锁定配置文件 .git/config: 权限不够
+2025-02-05 21:29:01.958 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:29:01.974 [info] > git status -z -uall [50ms] (cancelled)
+2025-02-05 21:29:01.982 [info] > git config --get commit.template [8ms]
+2025-02-05 21:29:01.998 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-05 21:29:02.012 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/fjk/文档/awesome-chatgpt-prompts-zh/.git/refs/remotes/origin/main'
+2025-02-05 21:29:02.015 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-02-05 21:29:02.046 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:29:02.491 [info] > git status -z -uall [462ms]
+2025-02-05 21:29:40.410 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 21:29:40.410 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:31:05.717 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-05 21:31:05.717 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:31:51.979 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:31:52.004 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-05 21:31:52.011 [info] [Model][openRepository] Opened repository: /home/fjk/文档/工作区
+2025-02-05 21:31:52.042 [info] > git config --get commit.template [1ms]
+2025-02-05 21:31:52.045 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-05 21:31:52.069 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-05 21:31:52.069 [warning] [Git][getBranch] No such branch: master
+2025-02-05 21:31:52.116 [info] > git status -z -uall [23ms]
+2025-02-05 21:31:52.116 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:31:52.166 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-02-05 21:31:52.166 [warning] [Git][getBranch] No such branch: master
+2025-02-05 21:31:52.166 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-05 21:31:52.168 [info] > git config --get commit.template [3ms]
+2025-02-05 21:31:52.192 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-05 21:31:52.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-05 21:31:52.193 [warning] [Git][getBranch] No such branch: master
+2025-02-05 21:31:52.239 [info] > git status -z -uall [24ms]
+2025-02-05 21:31:52.239 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-05 21:31:52.594 [info] > git check-ignore -v -z --stdin [27ms]
+2025-02-05 21:31:52.595 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-05 21:32:45.959 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-05 21:33:21.521 [info] > git config --get commit.template [1ms]
+2025-02-05 21:33:21.545 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-05 21:33:21.546 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-05 21:33:21.546 [warning] [Git][getBranch] No such branch: master
+2025-02-05 21:33:21.592 [info] > git status -z -uall [23ms]
+2025-02-05 21:33:21.593 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:36:55.448 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-05 21:36:55.449 [info] > git config --get commit.template [25ms]
+2025-02-05 21:36:55.449 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-02-05 21:36:55.497 [info] > git status -z -uall [24ms]
+2025-02-05 21:36:55.498 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:37:00.174 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-05 21:37:00.202 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-02-05 21:37:00.204 [info] [Model][openRepository] Opened repository: /home/fjk/文档/8.git/test
+2025-02-05 21:37:00.240 [info] > git config --get commit.template [3ms]
+2025-02-05 21:37:00.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-05 21:37:00.316 [info] > git status -z -uall [24ms]
+2025-02-05 21:37:00.317 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:37:00.368 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2025-02-05 21:37:00.393 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2025-02-05 21:37:00.393 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:37:00.418 [info] > git config --get commit.template [51ms]
+2025-02-05 21:37:00.443 [info] > git reflog master --grep-reflog=branch: Created from *. [25ms]
+2025-02-05 21:37:00.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-02-05 21:37:00.467 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [0ms]
+2025-02-05 21:37:00.467 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-05 21:37:00.467 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-05 21:37:00.564 [info] > git status -z -uall [52ms]
+2025-02-05 21:37:00.564 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [25ms]
+2025-02-05 21:37:00.589 [info] > git merge-base refs/heads/master refs/remotes/origin/master [100ms]
+2025-02-05 21:37:00.614 [info] > git diff --name-status -z --diff-filter=ADMR 738ae2fcca50cf2dc020250907f0d337102d131b...refs/remotes/origin/master [2ms]
+2025-02-05 21:37:00.614 [info] > git merge-base refs/heads/master refs/remotes/origin/master [26ms]
+2025-02-05 21:37:00.637 [info] > git config --get commit.template [74ms]
+2025-02-05 21:37:00.639 [info] > git diff --name-status -z --diff-filter=ADMR 738ae2fcca50cf2dc020250907f0d337102d131b...refs/remotes/origin/master [2ms]
+2025-02-05 21:37:00.709 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-05 21:37:00.710 [info] > git show --textconv :test1.sh [47ms]
+2025-02-05 21:37:00.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2025-02-05 21:37:00.757 [info] > git ls-files --stage -- /home/fjk/文档/8.git/test/test1.sh [70ms]
+2025-02-05 21:37:00.848 [info] > git status -z -uall [114ms]
+2025-02-05 21:37:00.848 [info] > git check-ignore -v -z --stdin [46ms]
+2025-02-05 21:37:00.848 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-05 21:37:00.848 [info] > git check-ignore -v -z --stdin [24ms]
+2025-02-05 21:37:00.849 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [70ms]
+2025-02-05 21:37:00.849 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [93ms]
+2025-02-05 21:37:07.542 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 21:37:07.542 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:12.496 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:38:12.496 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:12.522 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:38:12.522 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:17.961 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-05 21:38:17.961 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:17.962 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [46ms]
+2025-02-05 21:38:18.001 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-05 21:38:18.001 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:18.039 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 21:38:18.039 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:18.070 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 21:38:18.070 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:18.095 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:38:18.095 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:18.119 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:38:18.119 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:45.292 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 21:38:45.292 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:50.648 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 21:38:50.648 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:38:58.154 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 21:38:58.154 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:46:32.429 [info] > git config --get commit.template [25ms]
+2025-02-05 21:46:32.429 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 21:46:32.479 [info] > git status -z -uall [26ms]
+2025-02-05 21:46:32.480 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:46:32.506 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 21:46:32.531 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2025-02-05 21:46:32.531 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 21:46:32.557 [info] > git reflog main --grep-reflog=branch: Created from *. [1ms]
+2025-02-05 21:46:32.582 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2025-02-05 21:46:32.582 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-05 21:46:32.582 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-05 21:46:32.607 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-02-05 21:46:32.633 [info] > git diff --name-status -z --diff-filter=ADMR 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d...refs/remotes/origin/main [2ms]
+2025-02-05 21:46:37.555 [info] > git config --get commit.template [25ms]
+2025-02-05 21:46:37.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-02-05 21:46:37.607 [info] > git status -z -uall [27ms]
+2025-02-05 21:46:37.607 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-05 21:47:43.974 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [18ms]
+2025-02-05 21:47:47.334 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [17ms]
+2025-02-05 21:47:50.951 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [21ms]
+2025-02-05 21:47:55.305 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-02-05 21:48:00.004 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 21:48:11.648 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [13ms]
+2025-02-05 21:48:13.852 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:48:14.985 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:48:37.324 [info] > git hash-object -t tree /dev/null [1ms]
+2025-02-05 21:48:37.348 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR 4b825dc642cb6eb9a060e54bf8d69288fbee4904 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d [1ms]
+2025-02-05 21:48:37.555 [info] > git show --textconv 4b825dc642cb6eb9a060e54bf8d69288fbee4904:2025-2-5.code-profile [168ms]
+2025-02-05 21:48:37.555 [info] > git show --textconv 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d:2025-2-5.code-profile [144ms]
+2025-02-05 21:48:37.555 [info] > git show --textconv 4b825dc642cb6eb9a060e54bf8d69288fbee4904:主工作区.code-workspace [120ms]
+2025-02-05 21:48:37.555 [info] > git show --textconv 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d:主工作区.code-workspace [96ms]
+2025-02-05 21:48:37.555 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [3ms]
+2025-02-05 21:48:37.556 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [27ms]
+2025-02-05 21:48:37.556 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [50ms]
+2025-02-05 21:48:37.556 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [74ms]
+2025-02-05 21:48:38.080 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-05 21:48:57.565 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [26ms]
+2025-02-05 21:48:57.565 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [51ms]
+2025-02-05 21:48:57.565 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [76ms]
+2025-02-05 21:48:57.566 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [2ms]
+2025-02-05 21:49:07.616 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [25ms]
+2025-02-05 21:49:07.617 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [51ms]
+2025-02-05 21:49:07.617 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [76ms]
+2025-02-05 21:49:07.617 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [1ms]
+2025-02-05 21:49:22.007 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [26ms]
+2025-02-05 21:49:22.007 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [50ms]
+2025-02-05 21:49:22.007 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [75ms]
+2025-02-05 21:49:22.009 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [3ms]
+2025-02-05 21:49:47.616 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [25ms]
+2025-02-05 21:49:47.617 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [53ms]
+2025-02-05 21:49:47.617 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [79ms]
+2025-02-05 21:49:47.617 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [1ms]
+2025-02-05 21:50:28.539 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [25ms]
+2025-02-05 21:50:28.540 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [51ms]
+2025-02-05 21:50:28.540 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [76ms]
+2025-02-05 21:50:28.541 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [2ms]
+2025-02-05 21:51:52.222 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [24ms]
+2025-02-05 21:51:52.223 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [49ms]
+2025-02-05 21:51:52.223 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [74ms]
+2025-02-05 21:51:52.223 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [1ms]
+2025-02-05 21:52:30.800 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [5ms]
+2025-02-05 21:52:30.800 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [30ms]
+2025-02-05 21:52:30.801 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [55ms]
+2025-02-05 21:52:30.801 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [80ms]
+2025-02-05 21:52:30.983 [info] > git show --textconv :2025-2-5.code-profile [26ms]
+2025-02-05 21:52:30.984 [info] > git ls-files --stage -- /home/fjk/文档/工作区/2025-2-5.code-profile [1ms]
+2025-02-05 21:52:31.011 [info] > git cat-file -s f257e137dbc514f94c3523ac96593e85741f34e4 [2ms]
+2025-02-05 21:52:31.436 [info] > git check-ignore -v -z --stdin [0ms]
+2025-02-05 21:52:36.514 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [26ms]
+2025-02-05 21:52:36.514 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [53ms]
+2025-02-05 21:52:36.515 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [85ms]
+2025-02-05 21:52:36.516 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [3ms]
+2025-02-05 21:52:43.844 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [38ms]
+2025-02-05 21:52:43.845 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [66ms]
+2025-02-05 21:52:43.847 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [93ms]
+2025-02-05 21:52:43.848 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [5ms]
+2025-02-05 21:53:00.104 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [24ms]
+2025-02-05 21:53:00.105 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [50ms]
+2025-02-05 21:53:00.105 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [74ms]
+2025-02-05 21:53:00.106 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [2ms]
+2025-02-05 21:53:02.069 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:53:16.261 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:53:24.657 [info] > git blame --root --incremental 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [1ms]
+2025-02-05 21:53:30.354 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-02-05 21:53:31.290 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:53:32.041 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:53:33.210 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1ms]
+2025-02-05 21:53:34.309 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR 4b825dc642cb6eb9a060e54bf8d69288fbee4904 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d [1ms]
+2025-02-05 21:53:46.040 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [13ms]
+2025-02-05 21:53:46.628 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-02-05 21:53:47.990 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [14ms]
+2025-02-05 21:53:48.588 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3ms]
+2025-02-05 21:53:49.388 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [2ms]
+2025-02-05 21:53:50.794 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR 4b825dc642cb6eb9a060e54bf8d69288fbee4904 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d [1ms]
+2025-02-05 21:53:55.488 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR 4b825dc642cb6eb9a060e54bf8d69288fbee4904 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d [1ms]
+2025-02-05 21:53:56.005 [info] > git diff-tree -r --name-status -z --diff-filter=ADMR 4b825dc642cb6eb9a060e54bf8d69288fbee4904 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d [1ms]
+2025-02-05 21:53:57.177 [info] > git blame --root --incremental 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 21:54:03.443 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [3ms]
+2025-02-05 21:54:03.976 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-05 21:54:13.557 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [28ms]
+2025-02-05 21:54:13.558 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [53ms]
+2025-02-05 21:54:13.558 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [89ms]
+2025-02-05 21:54:13.559 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [3ms]
+2025-02-05 21:55:52.788 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [28ms]
+2025-02-05 21:55:52.865 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [28ms]
+2025-02-05 21:55:52.865 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [52ms]
+2025-02-05 21:55:52.865 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [78ms]
+2025-02-05 21:55:52.866 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 21:55:52.866 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 21:56:10.745 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [26ms]
+2025-02-05 21:56:10.746 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [51ms]
+2025-02-05 21:56:10.746 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [79ms]
+2025-02-05 21:56:10.746 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 21:56:20.913 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 21:56:20.914 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 21:56:20.914 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [78ms]
+2025-02-05 21:56:20.914 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [1ms]
+2025-02-05 21:56:24.917 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [25ms]
+2025-02-05 21:56:24.967 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 21:56:24.967 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 21:56:24.968 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 21:59:43.526 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 21:59:43.526 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 21:59:43.526 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [75ms]
+2025-02-05 21:59:43.527 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 21:59:55.221 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 21:59:55.221 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 21:59:55.221 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [75ms]
+2025-02-05 21:59:55.222 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:00:10.053 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:00:10.054 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 22:00:10.054 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [75ms]
+2025-02-05 22:00:10.054 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [1ms]
+2025-02-05 22:00:14.832 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:00:14.832 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 22:00:14.833 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [76ms]
+2025-02-05 22:00:14.833 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:00:37.187 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:00:37.188 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [51ms]
+2025-02-05 22:00:37.188 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [77ms]
+2025-02-05 22:00:37.188 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:01:00.573 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:01:00.573 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [50ms]
+2025-02-05 22:01:00.573 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [75ms]
+2025-02-05 22:01:00.574 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:01:16.908 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [27ms]
+2025-02-05 22:01:16.908 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [52ms]
+2025-02-05 22:01:16.908 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [77ms]
+2025-02-05 22:01:16.909 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:01:26.432 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:01:26.433 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [51ms]
+2025-02-05 22:01:26.433 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [76ms]
+2025-02-05 22:01:26.434 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [2ms]
+2025-02-05 22:01:39.435 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [27ms]
+2025-02-05 22:01:39.435 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [52ms]
+2025-02-05 22:01:39.436 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [80ms]
+2025-02-05 22:01:39.436 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [3ms]
+2025-02-05 22:07:06.477 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/2025-2-5.code-profile [25ms]
+2025-02-05 22:07:06.477 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/主工作区.code-workspace [49ms]
+2025-02-05 22:07:06.478 [info] > git ls-tree -l 4b825dc642cb6eb9a060e54bf8d69288fbee4904 -- /home/fjk/文档/工作区/主工作区.code-workspace [74ms]
+2025-02-05 22:07:06.478 [info] > git ls-tree -l 9df4a4fcf0424caa7c25aafb5bf4b649b8438c4d -- /home/fjk/文档/工作区/2025-2-5.code-profile [1ms]
+2025-02-05 22:07:39.603 [info] [main] 日志级别: Info
+2025-02-05 22:07:39.603 [info] [main] 正在验证在以下位置找到的 git: "git"
+2025-02-05 22:07:39.603 [info] [main] 使用来自 "git" 的 git "2.43.0"
+2025-02-05 22:07:39.603 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-05 22:07:39.603 [info] > git rev-parse --show-toplevel [15ms]
+2025-02-05 22:07:39.603 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:07:39.603 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-05 22:09:14.521 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 22:09:17.874 [info] [main] 日志级别: Info
+2025-02-05 22:09:17.874 [info] [main] 正在验证在以下位置找到的 git: "git"
+2025-02-05 22:09:17.874 [info] [main] 使用来自 "git" 的 git "2.43.0"
+2025-02-05 22:09:17.874 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-05 22:09:17.874 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-05 22:09:17.990 [info] > git rev-parse --git-dir --git-common-dir [106ms]
+2025-02-05 22:09:17.997 [info] [Model][openRepository] Opened repository: /home/fjk/.config/Code
+2025-02-05 22:09:18.043 [info] > git rev-parse --show-toplevel [7ms]
+2025-02-05 22:09:18.043 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:09:18.043 [info] > git config --get commit.template [19ms]
+2025-02-05 22:09:18.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-02-05 22:09:18.091 [info] > git status -z -uall [13ms]
+2025-02-05 22:09:18.094 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-05 22:09:18.126 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-02-05 22:09:18.161 [info] > git config --local branch.main.vscode-merge-base [23ms]
+2025-02-05 22:09:18.161 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-05 22:09:18.172 [info] > git config --get commit.template [49ms]
+2025-02-05 22:09:18.175 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2025-02-05 22:09:18.198 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2025-02-05 22:09:18.198 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-02-05 22:09:18.198 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-05 22:09:18.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-02-05 22:09:18.257 [info] > git status -z -uall [41ms]
+2025-02-05 22:09:18.257 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+2025-02-05 22:09:18.277 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:18.293 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.313 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-05 22:09:18.332 [info] > git rev-parse --show-toplevel [8ms]
+2025-02-05 22:09:18.426 [info] > git rev-parse --show-toplevel [82ms]
+2025-02-05 22:09:18.453 [info] > git config --get commit.template [28ms]
+2025-02-05 22:09:18.466 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-05 22:09:18.466 [info] > git init -b main [26ms]
+2025-02-05 22:09:18.466 [info] warning: re-init：已忽略 --initial-branch=main
+2025-02-05 22:09:18.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-02-05 22:09:18.551 [info] > git status -z -uall [44ms]
+2025-02-05 22:09:18.561 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+2025-02-05 22:09:18.566 [info] > git rev-parse --show-toplevel [76ms]
+2025-02-05 22:09:18.607 [info] > git rev-parse --show-toplevel [13ms]
+2025-02-05 22:09:18.630 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-05 22:09:18.644 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:18.660 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.677 [info] > git rev-parse --show-toplevel [4ms]
+2025-02-05 22:09:18.691 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:18.706 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 22:09:18.719 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:18.731 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.746 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.759 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.790 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-05 22:09:18.791 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 22:09:18.805 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:18.821 [info] > git rev-parse --show-toplevel [3ms]
+2025-02-05 22:09:18.834 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.846 [info] > git rev-parse --show-toplevel [1ms]
+2025-02-05 22:09:18.846 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-05 22:09:22.305 [info] > git add -A -- . [36ms]
+2025-02-05 22:09:22.897 [info] > git show --textconv :.git/COMMIT_EDITMSG [36ms]
+2025-02-05 22:09:22.897 [info] > git ls-files --stage -- /home/fjk/.config/Code/.git/COMMIT_EDITMSG [6ms]
+2025-02-05 22:09:23.100 [info] > git check-ignore -v -z --stdin [2ms]
+2025-02-05 22:09:23.376 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [806ms]
+2025-02-05 22:09:23.620 [info] > git ls-files --stage -- /home/fjk/.config/Code/.git/COMMIT_EDITMSG [2ms]
+2025-02-05 22:09:23.640 [info] > git show --textconv :.git/COMMIT_EDITMSG [1ms]
+2025-02-05 22:09:26.984 [info] > git blame --root --incremental 75074467d19e550459c005f2685b999ae4b367df -- /home/fjk/.config/Code/.git/COMMIT_EDITMSG [4ms]
+2025-02-05 22:09:26.984 [info] fatal: 在 75074467d19e550459c005f2685b999ae4b367df 中无此路径 .git/COMMIT_EDITMSG
+2025-02-05 22:09:40.163 [info] > git rev-parse --show-toplevel [2ms]
+2025-02-05 22:09:40.163 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:09:41.824 [info] > git show --textconv :.git/COMMIT_EDITMSG [18ms]
+2025-02-05 22:09:41.825 [info] > git ls-files --stage -- /home/fjk/.config/Code/.git/COMMIT_EDITMSG [1ms]
+2025-02-05 22:09:41.990 [info] > git -c user.useConfigOnly=true commit --quiet [19661ms]
+2025-02-05 22:09:41.990 [info] 终止提交因为提交说明为空。
+2025-02-05 22:09:42.033 [info] > git config --get-all user.name [25ms]
+2025-02-05 22:09:42.052 [info] > git config --get-all user.email [1ms]
+2025-02-05 22:09:42.053 [info] > git rev-parse --show-toplevel [20ms]
+2025-02-05 22:09:42.053 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:09:42.089 [info] > git config --get commit.template [19ms]
+2025-02-05 22:09:42.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:09:42.126 [info] > git status -z -uall [18ms]
+2025-02-05 22:09:42.127 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-02-05 22:09:42.148 [info] > git config --get commit.template [2ms]
+2025-02-05 22:09:42.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:09:42.244 [info] > git status -z -uall [34ms]
+2025-02-05 22:09:42.244 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-05 22:09:47.281 [info] > git config --get commit.template [18ms]
+2025-02-05 22:09:47.281 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:09:47.316 [info] > git status -z -uall [18ms]
+2025-02-05 22:09:47.316 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:09:56.992 [info] > git config --get commit.template [2ms]
+2025-02-05 22:09:57.011 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:09:57.046 [info] > git status -z -uall [18ms]
+2025-02-05 22:09:57.047 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:06.460 [info] > git config --get commit.template [2ms]
+2025-02-05 22:10:06.479 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:06.513 [info] > git status -z -uall [17ms]
+2025-02-05 22:10:06.514 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:07.134 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [598ms]
+2025-02-05 22:10:07.160 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-05 22:10:11.551 [info] > git config --get commit.template [16ms]
+2025-02-05 22:10:11.552 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:11.585 [info] > git status -z -uall [17ms]
+2025-02-05 22:10:11.585 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:16.621 [info] > git config --get commit.template [17ms]
+2025-02-05 22:10:16.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:16.656 [info] > git status -z -uall [18ms]
+2025-02-05 22:10:16.657 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:20.961 [info] > git diff --cached [1ms]
+2025-02-05 22:10:20.996 [info] > git diff [17ms]
+2025-02-05 22:10:21.490 [info] > git diff --cached [1ms]
+2025-02-05 22:10:21.520 [info] > git diff [12ms]
+2025-02-05 22:10:21.676 [info] > git config --get commit.template [1ms]
+2025-02-05 22:10:21.694 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:21.732 [info] > git status -z -uall [22ms]
+2025-02-05 22:10:21.733 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:22.386 [info] > git check-ignore -v -z --stdin [1ms]
+2025-02-05 22:10:26.769 [info] > git config --get commit.template [17ms]
+2025-02-05 22:10:26.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:26.804 [info] > git status -z -uall [18ms]
+2025-02-05 22:10:26.804 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:31.826 [info] > git config --get commit.template [2ms]
+2025-02-05 22:10:31.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:31.879 [info] > git status -z -uall [17ms]
+2025-02-05 22:10:31.880 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:10:36.917 [info] > git config --get commit.template [18ms]
+2025-02-05 22:10:36.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-02-05 22:10:36.951 [info] > git status -z -uall [17ms]
+2025-02-05 22:10:36.952 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-02-05 22:11:41.816 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/fjk/.config/Code/.git/HEAD'
+2025-02-05 22:11:41.834 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/fjk/.config/Code/.git/config'
+2025-02-05 22:11:41.852 [info] > git remote --verbose [18ms]
+2025-02-05 22:11:41.852 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:11:41.852 [info] > git symbolic-ref --short HEAD [36ms]
+2025-02-05 22:11:41.852 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:11:41.888 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/fjk/.config/Code/.git/HEAD'
+2025-02-05 22:11:41.905 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/fjk/.config/Code/.git/config'
+2025-02-05 22:11:41.924 [info] > git rev-parse HEAD [55ms]
+2025-02-05 22:11:41.924 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:11:41.924 [info] > git config --get commit.template [73ms]
+2025-02-05 22:11:41.925 [info] > git config --get commit.template [2ms]
+2025-02-05 22:11:41.925 [info] > git remote --verbose [20ms]
+2025-02-05 22:11:41.925 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:11:41.926 [info] > git symbolic-ref --short HEAD [38ms]
+2025-02-05 22:11:41.926 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:11:41.944 [info] > git rev-parse HEAD [1ms]
+2025-02-05 22:11:41.944 [info] fatal: 不是 git 仓库（或者任何父目录）：.git
+2025-02-05 22:12:47.513 [info] > git diff --cached [1ms]
+2025-02-05 22:12:47.532 [info] > git diff [1ms]
+2025-02-05 22:12:48.565 [info] > git diff --cached [1ms]
+2025-02-05 22:12:48.583 [info] > git diff [1ms]
+2025-02-05 22:12:54.287 [info] > git diff --cached [1ms]
+2025-02-05 22:12:54.305 [info] > git diff [1ms]

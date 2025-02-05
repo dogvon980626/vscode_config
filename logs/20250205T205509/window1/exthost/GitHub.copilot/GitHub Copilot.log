@@ -1,0 +1,8 @@
+2025-02-05 20:55:16.537 [info] [certificates] Removed 1 expired certificates
+2025-02-05 20:55:17.210 [info] [auth] Invalid copilot token: missing token: 403 
+2025-02-05 20:55:18.326 [error] [auth] auth: CopilotAuthError: No access to GitHub Copilot found. You are currently logged in as dogvon980626.
+    at handleTokenError (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:90:15)
+    at jre.getCopilotToken (/home/fjk/.vscode/extensions/github.copilot-1.264.0/extension/src/auth.ts:113:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  cause: undefined
+}

@@ -1,0 +1,35 @@
+2025-02-05 20:55:11.225 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-02-05 20:55:11.225 [info] Auto Sync is enabled.
+2025-02-05 20:55:11.225 [info] Auto Sync: Suspended until auth token is available.
+2025-02-05 20:55:20.084 [info] Auto Sync: Triggered by Interval
+2025-02-05 20:55:20.084 [info] Sync started.
+2025-02-05 20:55:20.395 [info] Settings: No changes found during synchronizing settings.
+2025-02-05 20:55:20.400 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-05 20:55:20.403 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-05 20:55:20.405 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-05 20:55:20.410 [info] GlobalState: No changes found during synchronizing ui state.
+2025-02-05 20:55:20.446 [info] Extensions: No changes found during synchronizing extensions.
+2025-02-05 20:55:20.452 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-05 20:55:20.453 [info] Sync done. Took 369ms
+2025-02-05 20:55:53.835 [info] Auto Sync: Triggered by Activity
+2025-02-05 20:55:53.835 [info] Sync started.
+2025-02-05 20:55:53.918 [info] Settings: No changes found during synchronizing settings.
+2025-02-05 20:55:53.923 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-05 20:55:53.927 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-05 20:55:53.931 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-05 20:55:53.936 [info] GlobalState: No changes found during synchronizing ui state.
+2025-02-05 20:55:54.631 [info] Extensions: Updated remote extensions. Removed: ["shd101wyy.markdown-preview-enhanced"].
+2025-02-05 20:55:54.639 [info] Extensions: Updated last synchronized extensions.
+2025-02-05 20:55:54.641 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-05 20:55:54.644 [info] Sync done. Took 809ms
+2025-02-05 20:55:57.891 [info] Auto Sync: Triggered by Activity
+2025-02-05 20:55:57.892 [info] Sync started.
+2025-02-05 20:55:57.998 [info] Settings: No changes found during synchronizing settings.
+2025-02-05 20:55:58.017 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-02-05 20:55:58.019 [info] Snippets: No changes found during synchronizing snippets.
+2025-02-05 20:55:58.022 [info] Tasks: No changes found during synchronizing tasks.
+2025-02-05 20:55:58.026 [info] GlobalState: No changes found during synchronizing ui state.
+2025-02-05 20:55:58.641 [info] Extensions: Updated remote extensions. Removed: ["davidanson.vscode-markdownlint"].
+2025-02-05 20:55:58.648 [info] Extensions: Updated last synchronized extensions.
+2025-02-05 20:55:58.650 [info] Profiles: No changes found during synchronizing profiles.
+2025-02-05 20:55:58.652 [info] Sync done. Took 761ms

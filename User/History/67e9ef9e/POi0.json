@@ -1,0 +1,6 @@
+{
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.inlineSuggest.showToolbar": "always"
+}

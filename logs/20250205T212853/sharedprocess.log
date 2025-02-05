@@ -1,0 +1,13 @@
+2025-02-05 21:38:05.917 [info] Getting Manifest... github.github-vscode-theme
+2025-02-05 21:38:06.075 [info] Installing extension: github.github-vscode-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fjk/.vscode/extensions/extensions.json","path":"/home/fjk/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-05 21:38:07.861 [info] Extension signature verification result for github.github-vscode-theme: Success. Executed: true. Duration: 635ms.
+2025-02-05 21:38:07.880 [info] Extracted extension to file:///home/fjk/.vscode/extensions/github.github-vscode-theme-6.3.5: github.github-vscode-theme
+2025-02-05 21:38:07.884 [info] Renamed to /home/fjk/.vscode/extensions/github.github-vscode-theme-6.3.5
+2025-02-05 21:38:07.901 [info] Extension installed successfully: github.github-vscode-theme vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 21:38:07.978 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

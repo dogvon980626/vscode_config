@@ -1,0 +1,522 @@
+2025-02-05 21:28:54.958 [info] Extension host with pid 44969 started
+2025-02-05 21:28:54.958 [info] Skipping acquiring lock for /home/fjk/.config/Code/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac.
+2025-02-05 21:28:55.247 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-05 21:28:55.248 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-02-05 21:28:55.253 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-05 21:28:55.253 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 21:28:55.254 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 21:28:55.254 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 21:28:55.280 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 21:28:56.065 [info] ExtensionService#_doActivateExtension yzane.markdown-pdf, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 21:28:56.147 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-02-05 21:28:56.198 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-02-05 21:28:56.428 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-02-05 21:28:56.428 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-02-05 21:28:56.728 [info] Eager extensions activated
+2025-02-05 21:28:56.793 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:56.794 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:56.794 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:57.274 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:57.617 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:57.617 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:57.617 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 21:28:57.645 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-02-05 21:29:02.536 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 21:29:02.537 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 21:29:02.538 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 21:38:19.039 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:19.039 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:19.040 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:19.040 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:19.068 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:19.068 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:38:24.855 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2025-02-05 21:38:24.887 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2025-02-05 21:38:24.888 [info] ExtensionService#_doActivateExtension ms-vscode.remote-server, startup: false, activationEvent: 'onCommand:remote-tunnels.internal.isAuthenticated'
+2025-02-05 21:47:56.306 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:47:56.307 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:48:12.636 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:48:12.636 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:48:14.853 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:48:14.853 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:48:37.653 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-02-05 21:53:47.029 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:47.029 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:47.629 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:47.629 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:48.979 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:48.979 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm0/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2Fawesome-chatgpt-prompts-zh"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:49.591 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:49.591 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm2/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F8.git%2Ftest"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:50.390 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:53:50.390 [error] Error (FileSystemError): 无法解析具有相对文件路径"vscode-scm:git/scm1/input?rootUri=file%3A%2F%2F%2Fhome%2Ffjk%2F%25E6%2596%2587%25E6%25A1%25A3%2F%25E5%25B7%25A5%25E4%25BD%259C%25E5%258C%25BA"的文件系统提供程序
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9853)
+    at Object.readFile (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7581)
+    at _RecentlyEditedTracker.insertRange (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:606763:27)
+2025-02-05 21:56:13.470 [error] AbortError: The operation was aborted.
+    at abort2 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:43669:21)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:43680:7
+    at new Promise (<anonymous>)
+    at fetch2 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:43653:10)
+    at fetchwithRequestOptions (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:72947:16)
+    at customFetch2 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:109270:32)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:109337:17
+    at withExponentialBackoff (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:105221:32)
+    at FreeTrial.fetch (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:109336:16)
+    at FreeTrial._streamFim (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:161514:35)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at FreeTrial.streamFim (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:109410:28)
+    at ListenableGenerator._start (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:114988:28)
+2025-02-05 22:07:36.126 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-05 22:07:36.202 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kh.L [as value] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:07:36.203 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kh.L [as value] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:07:36.203 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at kh.L [as value] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:975601)
+    at P.B (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:07:36.207 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at a.VscodeDevShareProvider.set hasGitHubRepositories [as hasGitHubRepositories] (/snap/code/181/usr/share/code/resources/app/extensions/github/dist/extension.js:2:328633)
+    at /snap/code/181/usr/share/code/resources/app/extensions/github/dist/extension.js:2:329592
+    at kh.value (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1088462)
+    at P.B (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:746)
+    at P.C (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:816)
+    at P.fire (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:1033)
+    at Object.p [as dispose] (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:997158)
+    at /snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003280
+    at Array.forEach (<anonymous>)
+    at b.dispose (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1003266)
+    at ev.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20047)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ev.<anonymous> (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:978080)
+    at ev.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:109:20143)
+    at ai (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:699)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:14992
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:25:1009
+    at Object.dispose (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:8:705)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11919)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:07:36.212 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at t.shutdown (/home/fjk/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1/out/extension.js:2:774169)
+    at Object.e.deactivate (/home/fjk/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1/out/extension.js:2:1059012)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:07:36.228 [info] Extension host with pid 44969 exiting with code 0
+2025-02-05 22:07:36.620 [info] Extension host with pid 50015 started
+2025-02-05 22:07:36.620 [info] Skipping acquiring lock for /home/fjk/.config/Code/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac.
+2025-02-05 22:07:36.628 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-05 22:07:36.629 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-02-05 22:07:36.633 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-05 22:07:36.634 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:07:36.634 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:07:36.634 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:07:36.653 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:07:37.143 [info] ExtensionService#_doActivateExtension yzane.markdown-pdf, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:07:37.147 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-02-05 22:07:37.148 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:07:37.148 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:07:37.148 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:07:37.149 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-02-05 22:07:37.149 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2025-02-05 22:07:37.149 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onView:targetsContainers'
+2025-02-05 22:07:37.149 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2025-02-05 22:07:37.150 [info] ExtensionService#_doActivateExtension ms-vscode.remote-server, startup: false, activationEvent: 'onCommand:remote-tunnels.internal.isAuthenticated'
+2025-02-05 22:07:37.150 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-02-05 22:07:37.904 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-02-05 22:07:37.905 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-05 22:07:37.917 [error] Canceled: Canceled
+    at new h4s (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:37070)
+    at Odt.U (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41717)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39206)
+    at css.getSessions (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:63755)
+    at fWe.getSessions (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:62465)
+    at V9t.z (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:65864)
+    at V9t.$getSession (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:67515)
+    at Odt.S (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546) remote-tunnels.internal.isAuthenticated {"value":"ms-vscode.remote-server","_lower":"ms-vscode.remote-server"}
+2025-02-05 22:07:38.105 [info] Eager extensions activated
+2025-02-05 22:07:38.168 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:07:38.169 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:07:38.169 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:07:38.573 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:07:38.884 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:07:38.884 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:14.522 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-05 22:09:14.567 [error] ProxyResolver#resolveProxy DIRECT Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at V0.resolveProxy (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:54029)
+    at Object.resolveProxy (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:17332)
+    at useProxySettings (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:182:16)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:205:13
+    at new Promise (<anonymous>)
+    at resolveProxyURL (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:204:35)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:518:53
+    at Generator.next (<anonymous>)
+    at /snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+    at new Promise (<anonymous>)
+    at __awaiter (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+    at patchedFetch (/snap/code/181/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:507:16)
+    at globalThis.fetch (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:159:19806)
+    at PostHog2.fetch (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:61479:75)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:60109:45)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:60100:28
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59018:26
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at retriable (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58994:14)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:60099:30)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at PostHog2.PostHogCoreStateless2.fetchWithRetry (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:60087:18)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59837:31)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at PostHog2.PostHogCoreStateless2.getDecide (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59827:18)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59983:35)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at PostHog2.PostHogCoreStateless2.getFeatureFlagsAndPayloadsStateless (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59974:18)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59957:35)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at PostHog2.PostHogCoreStateless2.getFeatureFlagsStateless (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:59953:18)
+    at PostHog2.<anonymous> (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:61528:65)
+    at step (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58941:24)
+    at Object.next (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58888:18)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58874:71
+    at new Promise (<anonymous>)
+    at __awaiter4 (/home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:58856:14)
+    at /home/fjk/.vscode/extensions/continue.continue-0.9.260-linux-x64/out/extension.js:61515:20
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+2025-02-05 22:09:14.574 [error] Canceled: Canceled
+    at new IT (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:110702)
+    at Dy.U (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:115312)
+    at Proxy.s.<computed>.n.charCodeAt.s.<computed> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:112806)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32313)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at r.registerCommand.description (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31147)
+    at cw.h (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:32833)
+    at cw.g (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31910)
+    at cw.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:31817)
+    at Object.executeCommand (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:157:37484)
+    at t.shutdown (/home/fjk/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1/out/extension.js:2:774169)
+    at Object.e.deactivate (/home/fjk/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.1/out/extension.js:2:1059012)
+    at zz.eb (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:11724)
+    at file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9874
+    at Array.map (<anonymous>)
+    at zz.$ (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:9862)
+    at zz.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:119:10105)
+    at QC.terminate (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1424)
+    at Zi (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:15080)
+    at MessagePortMain.<anonymous> (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:175:11628)
+    at MessagePortMain.emit (node:events:518:28)
+    at Object.MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) setContext undefined
+2025-02-05 22:09:14.615 [info] Extension host with pid 50015 exiting with code 0
+2025-02-05 22:09:14.932 [info] Extension host with pid 51118 started
+2025-02-05 22:09:14.932 [info] Skipping acquiring lock for /home/fjk/.config/Code/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac.
+2025-02-05 22:09:14.941 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-05 22:09:14.942 [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+2025-02-05 22:09:14.946 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-05 22:09:14.946 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:09:14.947 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:09:14.947 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:09:14.967 [info] ExtensionService#_doActivateExtension shd101wyy.markdown-preview-enhanced, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:09:15.500 [info] ExtensionService#_doActivateExtension yzane.markdown-pdf, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 22:09:15.502 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-02-05 22:09:15.502 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:09:15.502 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:09:15.502 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-02-05 22:09:15.503 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onFileSystem:git', root cause: vscode.git
+2025-02-05 22:09:15.503 [info] ExtensionService#_doActivateExtension ms-vscode.remote-explorer, startup: false, activationEvent: 'onView:remoteTargets'
+2025-02-05 22:09:15.503 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onView:targetsContainers'
+2025-02-05 22:09:15.503 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-ssh, startup: false, activationEvent: 'onCommand:remote-internal.getActiveSshRemote'
+2025-02-05 22:09:15.503 [info] ExtensionService#_doActivateExtension ms-vscode.remote-server, startup: false, activationEvent: 'onCommand:remote-tunnels.internal.isAuthenticated'
+2025-02-05 22:09:15.504 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2025-02-05 22:09:16.212 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'onFileSystem:git'
+2025-02-05 22:09:16.212 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2025-02-05 22:09:16.225 [error] Canceled: Canceled
+    at new h4s (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:37070)
+    at Odt.U (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41717)
+    at n.<computed>.r.charCodeAt.n.<computed> (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:39206)
+    at css.getSessions (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:63755)
+    at fWe.getSessions (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:62465)
+    at V9t.z (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:65864)
+    at V9t.$getSession (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:781:67515)
+    at Odt.S (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41680)
+    at Odt.Q (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:41458)
+    at Odt.M (vscode-file://vscode-app/snap/code/181/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3144:40546) remote-tunnels.internal.isAuthenticated {"value":"ms-vscode.remote-server","_lower":"ms-vscode.remote-server"}
+2025-02-05 22:09:16.421 [info] Eager extensions activated
+2025-02-05 22:09:16.471 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:16.471 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:16.471 [info] ExtensionService#_doActivateExtension Continue.continue, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:16.819 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:17.103 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:17.103 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2025-02-05 22:09:21.463 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.config/Code/User/sync/globalState/preview'
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-05 22:09:21.464 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.config/Code/User/sync/globalState/preview/globalState.json'
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-05 22:09:23.390 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.config/Code/User/settings.json.vsctmp'
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-05 22:09:42.871 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.config/Code/User/globalStorage/state.vscdb-journal'
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-05 22:09:42.872 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.config/Code/User/workspaceStorage/b4f993c7dde817a6a54ac43470abe2ac/state.vscdb-journal'
+    at Function.e (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:9057)
+    at Object.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:115:7007)
+    at kh.value (/home/fjk/.vscode/extensions/github.copilot-chat-0.23.2/dist/extension.js:397:14992)
+2025-02-05 22:11:42.926 [error] Error: Failed to execute git
+    at t.Git._exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:929600)
+    at t.Git.exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:928668)
+    at W.exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:934196)
+    at W.getRemotesGit (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:955740)
+    at W.getRemotes (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:955472)
+    at async Promise.all (index 1)
+    at O._updateModelState (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1060211)
+    at O.updateModelState (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1060036)
+    at O.run (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1059244)
+    at O.status (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1040047)
+2025-02-05 22:11:42.927 [error] Error: Failed to execute git
+    at t.Git._exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:929600)
+    at t.Git.exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:928668)
+    at W.exec (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:934196)
+    at W.getRemotesGit (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:955740)
+    at W.getRemotes (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:955472)
+    at async Promise.all (index 1)
+    at O._updateModelState (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1060211)
+    at O.updateModelState (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1060036)
+    at O.run (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1059244)
+    at O.status (/snap/code/181/usr/share/code/resources/app/extensions/git/dist/main.js:2:1040047)

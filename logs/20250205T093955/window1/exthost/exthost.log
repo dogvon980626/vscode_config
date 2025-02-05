@@ -1,0 +1,8 @@
+2025-02-05 09:39:57.168 [info] Extension host with pid 8143 started
+2025-02-05 09:39:57.328 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-02-05 09:39:57.330 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-02-05 09:39:57.330 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 09:39:57.331 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 09:39:57.331 [info] ExtensionService#_doActivateExtension DavidAnson.vscode-markdownlint, startup: false, activationEvent: 'onLanguage:markdown'
+2025-02-05 09:39:57.991 [info] Extension host terminating: renderer closed the MessagePort
+2025-02-05 09:39:57.997 [info] Extension host with pid 8143 exiting with code 0

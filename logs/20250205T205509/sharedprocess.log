@@ -1,0 +1,20 @@
+2025-02-05 20:55:51.105 [info] Uninstalling extension from the profile: shd101wyy.markdown-preview-enhanced@0.8.15 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 20:55:51.157 [info] Marked extension as uninstalled shd101wyy.markdown-preview-enhanced-0.8.15
+2025-02-05 20:55:51.227 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-05 20:55:51.665 [info] Successfully uninstalled extension from the profile shd101wyy.markdown-preview-enhanced@0.8.15 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 20:55:55.415 [info] Uninstalling extension from the profile: davidanson.vscode-markdownlint@0.58.2 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 20:55:55.457 [info] Marked extension as uninstalled davidanson.vscode-markdownlint-0.58.2
+2025-02-05 20:55:55.523 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-05 20:55:55.757 [info] Successfully uninstalled extension from the profile davidanson.vscode-markdownlint@0.58.2 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json

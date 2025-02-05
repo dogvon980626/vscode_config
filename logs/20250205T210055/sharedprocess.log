@@ -1,0 +1,36 @@
+2025-02-05 21:02:12.987 [info] Uninstalling extension from the profile: yzhang.markdown-all-in-one@3.6.2 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 21:02:13.035 [info] Marked extension as uninstalled yzhang.markdown-all-in-one-3.6.2
+2025-02-05 21:02:13.107 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-05 21:02:13.467 [info] Successfully uninstalled extension from the profile yzhang.markdown-all-in-one@3.6.2 vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 21:02:30.761 [info] Getting Manifest... davidanson.vscode-markdownlint
+2025-02-05 21:02:30.961 [info] Installing extension: davidanson.vscode-markdownlint {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fjk/.vscode/extensions/extensions.json","path":"/home/fjk/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-05 21:02:32.861 [info] Extension signature verification result for davidanson.vscode-markdownlint: Success. Executed: true. Duration: 962ms.
+2025-02-05 21:02:32.893 [info] Extracted extension to file:///home/fjk/.vscode/extensions/davidanson.vscode-markdownlint-0.58.2: davidanson.vscode-markdownlint
+2025-02-05 21:02:32.901 [info] Renamed to /home/fjk/.vscode/extensions/davidanson.vscode-markdownlint-0.58.2
+2025-02-05 21:02:32.931 [info] Extension installed successfully: davidanson.vscode-markdownlint vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 21:02:32.983 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-02-05 21:03:10.077 [info] Getting Manifest... shd101wyy.markdown-preview-enhanced
+2025-02-05 21:03:10.242 [info] Installing extension: shd101wyy.markdown-preview-enhanced {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/fjk/.vscode/extensions/extensions.json","path":"/home/fjk/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-02-05 21:03:11.324 [info] Extension signature verification result for shd101wyy.markdown-preview-enhanced: Success. Executed: true. Duration: 838ms.
+2025-02-05 21:03:11.697 [info] Extracted extension to file:///home/fjk/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.15: shd101wyy.markdown-preview-enhanced
+2025-02-05 21:03:11.712 [info] Renamed to /home/fjk/.vscode/extensions/shd101wyy.markdown-preview-enhanced-0.8.15
+2025-02-05 21:03:11.737 [info] Extension installed successfully: shd101wyy.markdown-preview-enhanced vscode-userdata:/home/fjk/.vscode/extensions/extensions.json
+2025-02-05 21:03:11.794 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/fjk/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///snap/code/181/usr/share/code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
